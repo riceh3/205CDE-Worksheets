@@ -9,10 +9,12 @@ header {
     padding-top: 50px;
 }
 
-img {
+.head-img img {
     max-width: 100%;
     width: 1090px;
     height: 300px;
 }
+
+
 
 
