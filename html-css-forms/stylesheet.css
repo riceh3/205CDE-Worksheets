@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+    padding-left: 50px;
+}
+body {
+    margin: 30px;
+}
+
+p.intro {
+    font-size: 30px;
+    background-color: lightblue;
+    width: 800px;
+    padding-left: 50px;
+}
+
+
