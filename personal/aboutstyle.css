@@ -14,7 +14,12 @@ header {
     width: 1090px;
     height: 300px;
 }
-
+.name h1 {
+    position: fixed;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
 
 
 
