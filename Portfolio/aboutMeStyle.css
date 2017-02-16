@@ -16,14 +16,13 @@ body {
     position: relative;
 }
 
-.header h1 {
-    position: absolute;
-    top: 150px;
-
+section {
+    margin-top: -100px;
     text-align: center;
-    display: block;
-    margin: auto;
-    
+    padding-top: 50px;
 }
+
+
+
 
 
