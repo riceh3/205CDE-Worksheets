@@ -16,14 +16,14 @@ body {
     position: relative;
 }
 
-.title {
-    padding-right: 500px;
-    padding-left: 500px;
+.header h1 {
+    position: absolute;
+    top: 150px;
+
+    text-align: center;
+    display: block;
+    margin: auto;
     
 }
-.title h1 {
-    position: absolute;
-    text-align: center;
-    background-color: yellow;
-    top: 150px;
-}
+
+
