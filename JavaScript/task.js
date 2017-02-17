@@ -48,7 +48,7 @@ function remove(){
     if (task.value) {
 
         // Add the item to the array:
-        tasks.pop();
+        tasks.splice(1, 1);
 
         // Update the page:
         test = '<h2>To-Do</h2><ol>';
