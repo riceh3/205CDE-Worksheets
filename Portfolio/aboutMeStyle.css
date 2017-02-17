@@ -39,6 +39,26 @@ section {
     height: 60px;
     width: 60px;
 }
+article {
+     position: fixed;
+     margin-top: 150px;
+     text-align: center;
+     padding-top: 50px;
+}
+.nav  {
+    margin-top: -32px;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+
+}
+.nav li {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    padding-right: 30px;
+
+}
+
 
 
 
