@@ -40,11 +40,26 @@ function addTask() {
 function remove(){
     'use strict';
 
-    var message = '';
+    var news = document.getElementById('news');
+
+    // For the output:
+    var test = '';
+
     if (task.value) {
+
+        // Add the item to the array:
         tasks.pop();
-        output.innerHTML = message
+
+        // Update the page:
+        test = '<h2>To-Do</h2><ol>';
+        for (var i = 0, count = tasks.length; i < count; i++) {
+            test += '<li>' + tasks[i] + '</li>';
+        }
+        test += '</ol>';
+        news.innerHTML = test;
     }
+
+
 
 }
 // Initial setup:
