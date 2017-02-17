@@ -49,14 +49,14 @@ article {
      display: block;
      margin: auto;
      list-style: none;
-     margin-top: 120px;
+     margin-top: 105px;
      margin-left: 15px;
 }
 .nav li {
     padding-top: 13px;
     padding-right: 30px;
     padding-bottom: 13px;
-    padding-left: 30px;
+    padding-left: 42.7px;
     font-size: 20px;
     font-weight: bold;
     float: left;
@@ -64,6 +64,7 @@ article {
     background-color: lightslategray;
 
 }
+
 
 
 
