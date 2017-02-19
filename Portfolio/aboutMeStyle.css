@@ -39,30 +39,35 @@ section {
     height: 60px;
     width: 60px;
 }
-article {
-     padding-left: 50px;
-     padding-right: 50px;
-     padding-top: 50px;
-     position: relative;
-}
-.nav  {
-     display: block;
-     margin: auto;
-     list-style: none;
-     margin-top: 105px;
-     margin-left: 15px;
-}
-.nav li {
-    padding-top: 13px;
-    padding-right: 30px;
-    padding-bottom: 13px;
-    padding-left: 42.7px;
-    font-size: 20px;
-    font-weight: bold;
-    float: left;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    background-color: lightslategray;
 
+.menu {
+   
+    padding-left: 50px; 
+    padding-right: 50px;
+    width: 1090px; 
+    display: block;
+    margin: auto;
+    
+}
+.menu ul {
+    position: relative; 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 150px;
+
+} 
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 
