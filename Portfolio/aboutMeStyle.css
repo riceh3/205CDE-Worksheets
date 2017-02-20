@@ -74,24 +74,25 @@ section {
     padding-bottom: 14px;
     text-decoration: none;
 }
-article {
-    margin-left: 50px;
-}
-.profile-pic {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
+
+article {  
     position: relative;
-    background-color: yellow;
-    float: left;
-    margin-top: 200px;
+    margin-top: -230px;
+    padding-top: 50px;
 }
-.profile-pic img {
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
+
+.pic {
+    position: relative;
+    margin-left: -750px;
+    margin-top: 370px;
+}
+
+.pic img {
+    position: relative;
     display: block;
     margin: auto;
+    height: 250px;
+    width: 250px;
 }
 
 
