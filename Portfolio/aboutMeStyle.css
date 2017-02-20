@@ -58,10 +58,13 @@ section {
     overflow: hidden;
     background-color: #333;
     top: 150px;
+    
 
 } 
 .menu li {
     float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
 }
 
 .menu li a {
@@ -75,10 +78,13 @@ section {
     text-decoration: none;
 }
 
+
 article {  
     position: relative;
     margin-top: -230px;
     padding-top: 50px;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 .pic {
@@ -94,6 +100,28 @@ article {
     height: 250px;
     width: 250px;
 }
+
+figure {
+    position: relative;
+    margin-top: -300px;
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    font-size: 27px;
+
+}
+
+.content {
+    position: relative;
+    margin-top: -32px;
+
+}
+
+
+
+
 
 
 
