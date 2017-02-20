@@ -79,7 +79,7 @@ section {
 }
 
 
-article {  
+figure {  
     position: relative;
     margin-top: -230px;
     padding-top: 50px;
@@ -101,7 +101,7 @@ article {
     width: 250px;
 }
 
-figure {
+article {
     position: relative;
     margin-top: -300px;
     text-align: left;
