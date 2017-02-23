@@ -1,4 +1,5 @@
 var user = '';
+var userName = '';
 
 function startForm(){
     'use strict';
@@ -13,11 +14,14 @@ function startForm(){
     var message = '';
 
     user = (name.value);
+    userName = ('Username ');
+    userName += user;
 
     message = '<h2>User</h2>';
     message += '<p>' + user + '</p>';
 
     output.innerHTML = message;
+    console.log(userName);
     return false;
 }
 
