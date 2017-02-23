@@ -77,3 +77,10 @@ section {
     padding-bottom: 14px;
     text-decoration: none;
 }
+
+form {
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    width: 100px;
+}
