@@ -29,5 +29,10 @@ window.onload = function(){
 
 // They overwirte each other
 
+// Key document objects = window, document, elements
 
+// Key DOM API: elementById, onload, innerHTML
+
+//-----------------------JavaScript Object Notation----------------
+// JSON is syntax 
 

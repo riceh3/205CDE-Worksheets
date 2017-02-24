@@ -98,7 +98,11 @@ class Person {
 }
 var add = new Person("Hannah", "Rice");
 
-Person.prototype.fullname = function(){
+Person.prototype.fullname = function(){       //Prototype to inherit
     return this.first + " " + this.last;
 };
-add.fullname();
+add.fullname();                              //returns Hannah Rice
+
+// can change prototypes at runtime
+
+
