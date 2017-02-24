@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Map Coordinates</title>
+
   <script>
 	window.onload = init;
 	function init() {
@@ -10,6 +11,7 @@
 		map.onmousemove = showCoords;
 		var mydiv = document.getElementById("mydiv");
 		mydiv.onclick = addtext;
+        addList();
 	}
 	
 	function showCoords(eventObj) {
@@ -28,11 +30,21 @@
 			alert("Looks like you have an old browser!");
 		}
 	}
+
+    function addList(){
+        list = document.createElement("ul");
+        heading_content = document.createTextNode("This is some content");
+        list.appendChild(heading_content);
+        document.body.appendChild(list);
+        
+    }
   </script>
 </head>
 <body>
 	<img id="map" src="images/map.jpg">
 	<p id="coords">Move mouse over map to find coordinates...</p>
 	<div id="mydiv" style="border:1px solid red">I am a DIV! Click me.</div>
+    <div id="list">
+    </div>
 </body>
 </html>
