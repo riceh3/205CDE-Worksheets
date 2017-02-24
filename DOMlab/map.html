@@ -32,9 +32,12 @@
 	}
 
     function addList(){
+        var message = ['item1', 'item2', 'item3', 'item4', 'item5'];
         list = document.createElement("ul");
         for (i = 0; i < 5; i++){
+            
             heading_content = document.createElement("li");
+            heading_content.innerHTML = message[i];
             list.appendChild(heading_content);
         }
         
