@@ -72,4 +72,19 @@ object.name();
 //            - return values
 //            - parameter values
 
+//-------------------Objects------------------------------
+
+// = classes
+class Object{
+    constructor(firstName, lastName){
+        this.first = firstName;
+        this.last = lastName;
+    }
+}
+
+var user = new Object("Hannah", "Rice");
+
+//Functions with "new"= contructor functions
+// "new" is strongly linked to "this"
+
 
