@@ -1,23 +1,28 @@
-
 var firstName = '';
 var lastName = '';
 
 function submitForm(){
     'use strict';
 
-    var fName = document.getElementById("firstName");
-    var lName = document.getElementById("lastName");
+    var first = document.getElementById('firstName');
+    var last = document.getElementById('lastName');
 
-    message = ('Message From: ' + fName + '' + lName);
-    console.log(message);
-    
+
+    var message = '';
+
+    firstName = (first.value);
+    lastName = (last.value);
+
+    console.log("message from " + " " + firstName + " " + lastName);
+
     return false;
-
 
 }
 
 function init(){
-    'use strict';
+    'use strit';
 
-    document.getElementById()
+    document.getElementById("contactForm").onsubmit = submitForm;
 }
+
+window.onload = init;
