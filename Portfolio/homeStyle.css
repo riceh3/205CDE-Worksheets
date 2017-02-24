@@ -85,6 +85,7 @@ figure {
     padding-top: 50px;
     padding-right: 0px;
     margin-right: 0px;
+    z-index: -1;
 }
 
 .pic {
