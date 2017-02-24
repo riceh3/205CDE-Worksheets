@@ -87,5 +87,18 @@ var user = new Object("Hannah", "Rice");
 //Functions with "new"= contructor functions
 // "new" is strongly linked to "this"
 
-//-----------------Class Like Objects-------------------
+//--------------Inheritance with classes-----------------------
+// use prototypes 
 
+class Person {
+    constructor(first, last){
+        this.first = first;
+        this.last = last;
+    }
+}
+var add = new Person("Hannah", "Rice");
+
+Person.prototype.fullname = function(){
+    return this.first + " " + this.last;
+};
+add.fullname();
