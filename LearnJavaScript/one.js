@@ -114,6 +114,6 @@ console.log(otherShow);
 newObject["aNewName"] = "A bloody brand new value";
 console.log(newObject["aNewName"]);
 
-// OBJECTS ARE NEVER COPPIED, THEY ARE REFERENED !!!!!!!
+// OBJECTS ARE NEVER COPPIED, THEY ARE REFferenced !!!!!!!
 
 

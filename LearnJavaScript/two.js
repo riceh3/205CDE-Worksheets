@@ -87,4 +87,5 @@ var user = new Object("Hannah", "Rice");
 //Functions with "new"= contructor functions
 // "new" is strongly linked to "this"
 
+//-----------------Class Like Objects-------------------
 
