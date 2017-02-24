@@ -33,10 +33,12 @@
 
     function addList(){
         list = document.createElement("ul");
-        heading_content = document.createTextNode("This is some content");
-        list.appendChild(heading_content);
-        document.body.appendChild(list);
+        for (i = 0; i < 5; i++){
+            heading_content = document.createElement("li");
+            list.appendChild(heading_content);
+        }
         
+        document.body.appendChild(list);
     }
   </script>
 </head>
