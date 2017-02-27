@@ -12,6 +12,7 @@
 	<script>
 		window.onload = function() {
 			var div = document.getElementById("clickme");
+            eventHandler();
 			if (div.addEventListener) {
 				div.addEventListener("click", handleClick, false);
 			}
@@ -31,13 +32,36 @@
 			}
 			alert("You clicked on " + target.id);
 		}
+
+        function eventHandler(){
+            var content = document.getElementById("content");
+            if (content.addEventListener){
+                content.addEventListener("content", inTheDiv, false);
+            }
+            else if (content.attachEvent){
+                content.attachEvent("content", inTheDiv);
+            }
+        }
+
+        function inTheDiv(a){
+            var x = a || window.event;
+            var go;
+            if (x.go){
+                go = x.go;
+            }
+            else{
+                go = x.onmouseover;
+            }
+            alert("you clicked on the paragraph" + x.id);
+
+        }
 	</script>
 </head>
 
 <body>
 	<span id="clickme">Click me!</span>
-    <div>
-        <p>This is a div with some text </p>
+    <div id="content">
+        <p>content</p>
     </div>
 </body>
 
