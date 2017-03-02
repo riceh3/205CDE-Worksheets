@@ -126,10 +126,12 @@ form {
     padding-top: 9px;
     margin-left: 150px;
     width: 200px;
+    
 }
 input[id="enter"]{
     background-color: #cfd2d3;
     color: black;  
+   
     
     
 }
@@ -142,7 +144,7 @@ input[type="text"]{
     background-position: left;
     background-position-x: 3px; 
     border: none;
-      
+   
 }
 
 
