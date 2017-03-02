@@ -77,3 +77,6 @@ section {
     padding-bottom: 14px;
     text-decoration: none;
 }
+.menu li a:active{
+    color: lightseagreen;
+}
