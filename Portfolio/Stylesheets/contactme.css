@@ -81,9 +81,39 @@ section {
 form {
     display: block;
     margin: auto;
+    width: 500px;
+    
     margin-top: 200px;
-    width: 100px;
+    margin-left: 110px;
+    padding-left: 50px;
 }
-form .userInput {
-    width: 300px;
+input{
+    padding: 12px 20px;
+
 }
+input[id=firstName]{
+    width: 30%;
+    background-color: #3CBC8D;
+    color: white;
+    margin: 8px 10px;
+}
+input[id="lastName"]{
+    width: 30%;
+    background-color: #3CBC8D;
+    color: white;
+    margin: 8px 12px;
+}
+input[id="email"]{
+    width: 50%;
+    background-color: #3CBC8D;
+    color: white;
+    margin: 8px 43px;
+}
+input[id="comment"]{
+    width: 80%;
+    height: 100px;
+    background-color: #3CBC8D;
+    color: white;
+    margin: 8px 83px;
+}
+
