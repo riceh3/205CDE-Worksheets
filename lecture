@@ -1,0 +1,36 @@
+MCQ questions come from lab sheets
+
+bootstrap link goes in <head>
+DONT DOWNLOAD bootstrap
+and inlcude link to jQuery
+
+do jQuery link before bootstrap link
+
+not allowed to use jQuery
+
+media query: browser decides screen size and then choose the best representation of website for that size screen
+@media screen
+
+-md- is screen size
+
+first 6 lectures for test
+History of the internet
+
+extra questions: 
+
+--------apache server
+symbolic link is a shortcut between folders on linux, looks like folder is in folder
+but it's just a shortcut.
+
+only need to remember tags on labsheets
+
+no closing tag = void element <img src/>
+<a> </a> = self closing tag 
+
+[a-z] + means one character a-z at least once. (validation(pasword/text))
+
+REVISE!!!!!
+
+understand JavaScript code- what it does (use lectue examples)
+
+

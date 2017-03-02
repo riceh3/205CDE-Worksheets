@@ -57,7 +57,7 @@ section {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: lightseagreen;
+    background-color: #333;
     top: 150px;
     
 
@@ -70,7 +70,7 @@ section {
 
 .menu li a {
     display: block;
-    color: white;
+    color: lightseagreen;
     text-align: center;
     padding-right: 30px;
     padding-left: 20px;
