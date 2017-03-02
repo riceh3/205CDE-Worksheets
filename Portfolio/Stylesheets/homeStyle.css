@@ -126,22 +126,26 @@ form {
     padding-top: 9px;
     margin-left: 150px;
     width: 200px;
-    outline: none;
 }
-input[type=text]{
+input[id="enter"]{
     background-color: white;
-    color: black;
+    color: black;  
+    
+    
+}
+input[type="text"]{
     width: 100%;
-    height: 23px;
+    height: 27px;
     background-image: url("/home/riceh3/205CDE-Worksheets/Portfolio/images/searchicon.png");
     background-size: 25px;
     background-repeat: no-repeat;
-    border-color: white;
-    background-position: left;
-    outline: none;
-    cursor: pointer;
+    background-position: left; 
+    border: none;
+    padding-left: 3px;
+    
 }
-input[type="text"]:focus{
+
+input[id="enter"]:focus{
     border: 2px solid lightseagreen;
 }
 

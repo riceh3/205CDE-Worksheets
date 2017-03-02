@@ -1,4 +1,4 @@
-var box = 'Search';
+
 var output = '';
 
 function startSearch(){
