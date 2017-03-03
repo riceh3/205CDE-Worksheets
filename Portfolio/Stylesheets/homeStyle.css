@@ -12,6 +12,7 @@ body {
     display: block;
     margin: auto;
     padding-top:50px;
+    
 }
 
 section {
@@ -21,11 +22,16 @@ section {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 30px;
+    color: #fff;
 
 }
 .under {
     font-size: 27px;
     font-weight: bold;
+    color: white;
+}
+.under p {
+    color: white;
 }
 
 .logo img{
@@ -95,6 +101,7 @@ article {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 23px;
+    
 
 }
 
