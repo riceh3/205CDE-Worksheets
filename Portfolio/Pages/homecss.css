@@ -4,7 +4,6 @@ body {
     background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
 
 }
-
 .header img {
     max-width: 100%;
     width: 1090px;
@@ -18,12 +17,14 @@ section {
     position: relative;
     margin-top: -200px;
     text-align: center;
+    
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 30px;
 
 }
 .under {
+    
     font-size: 27px;
     font-weight: bold;
 }
@@ -34,7 +35,6 @@ section {
 }
 
 .menu {
-   
     max-width: 100%;
     width: 1090px; 
     display: block;
@@ -80,30 +80,12 @@ figure {
     margin-right: 0px;
     z-index: -1;
 }
-.profilepic {
-    margin-top: 100px;
-}
 
 
 
-article {
-    position: relative;
-    margin-top: -300px;
-    text-align: left;
-    padding-top: 50px;
-    margin-left: 500px;
-    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    font-style: italic;
-    font-size: 23px;
 
-}
-
-.content {
-    margin-top: 150px;
-
-}
 form {
-    padding-top: -40px;
+    margin-top: -40px;
     margin-left: 500px;
     width: 200px;
     
@@ -111,9 +93,13 @@ form {
 input[id="enter"]{
     background-color: #cfd2d3;
     color: black;  
-   
     
-    
+}
+.content {
+    margin-top: 150px;
+}
+.profilepic {
+    margin-top: 100px;
 }
 input[type="text"]{
     width: 100%;
