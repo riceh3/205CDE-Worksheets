@@ -15,6 +15,7 @@ body {
     
 }
 
+
 section {
     position: relative;
     margin-top: -200px;
@@ -22,17 +23,20 @@ section {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 30px;
-    color: #fff;
+    
 
 }
+
+
 .under {
     font-size: 27px;
     font-weight: bold;
     color: white;
+    
+
+    
 }
-.under p {
-    color: white;
-}
+
 
 .logo img{
     height: 60px;
@@ -102,11 +106,14 @@ article {
     font-style: italic;
     font-size: 23px;
     
+    
 
 }
 
 .content {
     margin-top: 150px;
+    
+    
 
 }
 form {
