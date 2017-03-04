@@ -4,49 +4,39 @@ body {
     background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
 
 }
-.header {
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    position: relative;
-}
+
 .header img {
     max-width: 100%;
     width: 1090px;
-    height: 250px;
+    height: 300px;
     display: block;
     margin: auto;
+    padding-top:50px;
 }
 
 section {
     position: relative;
-    margin-top: -230px;
+    margin-top: -200px;
     text-align: center;
-    padding-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
-    color: white;
     font-style: italic;
     font-size: 30px;
+    color: white;
 
 }
 .under {
-    margin-top: -32px;
     font-size: 27px;
     font-weight: bold;
 }
-.logo {
-    margin-top: -195px;
 
-}
 .logo img{
     height: 60px;
     width: 60px;
 }
 
 .menu {
-   
-    padding-left: 50px; 
-    padding-right: 50px;
+    padding-top: 33px;
+    max-width: 100%;
     width: 1090px; 
     display: block;
     margin: auto;
@@ -58,7 +48,6 @@ section {
     margin: 0;
     overflow: hidden;
     background-color: #333;
-    top: 150px;
     
 
 } 
@@ -72,8 +61,8 @@ section {
     display: block;
     color: white;
     text-align: center;
-    padding-right: 30px;
-    padding-left: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 14px;
     padding-bottom: 14px;
     text-decoration: none;
@@ -84,14 +73,10 @@ section {
 
 
 form {
-    display: block;
-    margin: auto;
-    width: 500px;
     
-    margin-top: 200px;
-    margin-left: 110px;
-    padding-left: 50px;
-    margin-bottom: 50px;
+    width: 500px;
+    padding-bottom: 100px;
+    padding-top: 30px;
 }
 input{
     padding: 12px 20px;
@@ -99,6 +84,7 @@ input{
 }
 input[id=firstName]{
     width: 30%;
+    height: 20px;
     background-color: white;
     color: black;
     margin: 8px 10px;
@@ -106,12 +92,14 @@ input[id=firstName]{
 }
 input[id="lastName"]{
     width: 30%;
+    height: 20px;
     background-color: white;
     color: black;
     margin: 8px 12px;
 }
 input[id="email"]{
     width: 50%;
+    height: 20px;
     background-color: white;
     color: black;
     margin: 8px 47px;
@@ -132,9 +120,9 @@ legend {
     font-style: italic;
     display: block;
     margin: auto;
-    margin-left: 50px;
-    padding-bottom: 20px;
     font-size: 30px;
+    
+    border: none;
 }
 input[type=submit]{
     background-color: lightseagreen;
@@ -142,7 +130,7 @@ input[type=submit]{
     color: black;
     padding: 16px 32px;
     text-decoration: none;
-    margin: 4px 444px;
+    margin: 4px 400px;
     cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
