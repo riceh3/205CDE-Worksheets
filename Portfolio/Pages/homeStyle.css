@@ -23,6 +23,7 @@ section {
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 30px;
+    color: white;
     
 
 }
@@ -31,10 +32,7 @@ section {
 .under {
     font-size: 27px;
     font-weight: bold;
-    color: white;
-    
-
-    
+   
 }
 
 
@@ -44,7 +42,7 @@ section {
 }
 
 .menu {
-   
+    padding-top: 33px;
     max-width: 100%;
     width: 1090px; 
     display: block;
@@ -91,35 +89,33 @@ figure {
     z-index: -1;
 }
 .profilepic {
-    margin-top: 100px;
+    margin-top: 70px;
+    margin-left: 50px;
+    padding-bottom: 100px;
 }
 
 
 
 article {
     position: relative;
-    margin-top: -300px;
     text-align: left;
-    padding-top: 50px;
-    margin-left: 500px;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 400px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
-    font-size: 23px;
     
-    
-
+}
+.content p{
+    font-size: 20px;
 }
 
-.content {
-    margin-top: 150px;
-    
-    
 
-}
+
 form {
-    padding-top: -40px;
+    margin-top: -40px;
     margin-left: 500px;
-    width: 200px;
+    width: 150px;
     
 }
 input[id="enter"]{
