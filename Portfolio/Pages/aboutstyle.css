@@ -160,3 +160,15 @@ article h1 {
     margin-top: -200px;
     margin-right: 30px;
 }
+.future {
+    padding: 10px;
+    border-left: solid #333;
+}
+.future p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+article{
+    padding-bottom: 300px;
+}
