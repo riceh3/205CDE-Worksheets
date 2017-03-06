@@ -78,16 +78,26 @@ figure {
     margin-left: 30px;
     margin-top: 30px;
 }
+
+figure li a:hover{
+    color: lightseagreen;
+    text-decoration: none;
+}
 figure h2 {
     padding-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
 }
 figure ul li {
+    text-decoration: none;
+    
     padding-bottom: 20px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic; 
     font-size: 15px;
+}
+figure ul li a{
+    color: #333;
 }
 article {
 
@@ -104,5 +114,19 @@ article h1 {
     font-style: italic;
     background-color: #333;
 }
-
+.text {
+    padding: 10px;
+    border-left: solid #333;
+}
+.text p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.text ul li {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
 
