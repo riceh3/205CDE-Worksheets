@@ -4,6 +4,7 @@ body {
     background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
 
 }
+
 .header img {
     max-width: 100%;
     width: 1090px;
@@ -11,23 +12,29 @@ body {
     display: block;
     margin: auto;
     padding-top:50px;
+    
 }
+
 
 section {
     position: relative;
     margin-top: -200px;
     text-align: center;
-    
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     font-size: 30px;
+    color: white;
+    
 
 }
+
+
 .under {
-    
     font-size: 27px;
     font-weight: bold;
+   
 }
+
 
 .logo img{
     height: 60px;
@@ -35,6 +42,7 @@ section {
 }
 
 .menu {
+    padding-top: 33px;
     max-width: 100%;
     width: 1090px; 
     display: block;
@@ -48,8 +56,6 @@ section {
     overflow: hidden;
     background-color: #333;
     
-    
-
 } 
 .menu li {
     float: left;
@@ -80,26 +86,42 @@ figure {
     margin-right: 0px;
     z-index: -1;
 }
+.profilepic {
+    margin-top: 70px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
 
+
+
+article {
+    position: relative;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    
+}
+.content p{
+    font-size: 20px;
+}
 
 
 
 form {
     margin-top: -40px;
     margin-left: 500px;
-    width: 200px;
+    width: 150px;
     
 }
 input[id="enter"]{
     background-color: #cfd2d3;
     color: black;  
+   
     
-}
-.content {
-    margin-top: 150px;
-}
-.profilepic {
-    margin-top: 100px;
+    
 }
 input[type="text"]{
     width: 100%;
@@ -112,23 +134,3 @@ input[type="text"]{
     border: none;
    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
