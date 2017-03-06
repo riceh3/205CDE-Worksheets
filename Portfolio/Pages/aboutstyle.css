@@ -114,19 +114,27 @@ article h1 {
     font-style: italic;
     background-color: #333;
 }
-.text {
+.current {
     padding: 10px;
     border-left: solid #333;
 }
-.text p {
+.current p {
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
 }
-.text ul li {
+.current ul li {
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     font-style: italic;
     padding-bottom: 5px;
 }
-
+.background p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.background {
+    padding: 10px;
+    border-left: solid #333;
+}
