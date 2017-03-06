@@ -73,3 +73,19 @@ section {
 .menu li a:hover {
     color: lightseagreen;
 }
+.cv-page1 img{
+    padding-top: 30px;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.cv-page2 img{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    
+    display: block;
+    margin: auto;
+}
