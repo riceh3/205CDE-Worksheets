@@ -67,12 +67,17 @@ section {
     padding-bottom: 14px;
     text-decoration: none;
 }
+.menu li a:hover {
+    color: lightseagreen;
+}
 .menu li a:active{
     color: lightseagreen;
 }
 
 
 form {
+    position: realtive;
+    margin-left: 100px;
     
     width: 500px;
     padding-bottom: 100px;

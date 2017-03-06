@@ -70,3 +70,6 @@ section {
 .menu li a:active{
     color: lightseagreen;
 }
+.menu li a:hover {
+    color: lightseagreen;
+}
