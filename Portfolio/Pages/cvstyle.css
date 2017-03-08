@@ -238,3 +238,46 @@ section {
 #place3 {
     font-weight: bold;
 }
+.worktitle{
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.workbar{
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 800px;
+    background-color: #333;
+}
+.workone {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.workone p {
+    display: inline;
+}
+#bank {
+    font-weight: bold;
+}
+#bankdate {
+    font-weight: bold;
+}
+.worktwo{
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.worktwo p{
+    display: inline;
+}
+#argos {
+    font-weight: bold;
+}
+#argosdate {
+    font-weight: bold;
+}
