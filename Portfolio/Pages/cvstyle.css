@@ -281,3 +281,56 @@ section {
 #argosdate {
     font-weight: bold;
 }
+.projecttitle {
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.projectbar {
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 800px;
+    background-color: #333;
+}
+.projects {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.projectlist1 {
+    display: block;
+    margin: auto;
+    width: 800px;
+    
+    text-align: left;
+}
+.projectlist1 li{
+    display: inline;
+    padding: 35px;
+}
+.project1more {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.project2 {
+    padding-top: 0px;
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.projectlist2 {
+    display: block;
+    margin: auto;
+    width: 800px; 
+    text-align: left;
+}
+.projectlist2 li{
+    display: inline;
+    padding: 35px;
+}
