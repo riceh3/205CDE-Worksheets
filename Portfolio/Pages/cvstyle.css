@@ -90,7 +90,7 @@ section {
     margin: auto;
 }
 .headtopbar {
-    position: relative;
+    
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -102,11 +102,11 @@ section {
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
+    
 
 }
 .headlowbar {
-    position: relative;
+    
     display: block;
     margin: auto;
     height: 3px;
@@ -117,10 +117,29 @@ section {
     display: block;
     margin: auto;
     width: 800px;
-    padding-top: 20px;
+    padding: 25px;
+    padding-bottom: 0px;
    
 }
+.personaltitle {
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.personalbar {
+    
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 800px;
+    background-color: #333;
+}
 
-
-
+.personalprofile {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
 
