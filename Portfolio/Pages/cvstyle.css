@@ -157,15 +157,18 @@ section {
 .skillrow2 {
     display: block;
     margin: auto;
-    width: 820px;
+    width: 860px;
     padding: 25px;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 0px;
+    margin-top: -35px;
+    padding-left: 55px;
 }
 .skillrow2 li{
     display: inline;
     padding: 70px;
+    
 }
 #space {
     padding-left: 87px;
@@ -177,7 +180,6 @@ section {
     padding-left: 95.5px;
 }
 #space4 {
-    font-size: 10px;
     padding-left: 122px;
     
 }
