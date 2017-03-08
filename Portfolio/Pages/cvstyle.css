@@ -89,7 +89,8 @@ section {
     display: block;
     margin: auto;
 }
-.topbar {
+.headtopbar {
+    position: relative;
     display: block;
     margin: auto;
     margin-top: 30px;
@@ -98,10 +99,17 @@ section {
     background-color: #333;
 }
 .tophead {
-    width: 800px;
-    margin-top: 50px;
     text-align: center;
     display: block;
     margin: auto;
-    
+    position: relative;
+
+}
+.headlowbar {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 800px;
+    background-color: #333;
 }
