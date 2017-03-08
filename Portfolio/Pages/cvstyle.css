@@ -183,3 +183,58 @@ section {
     padding-left: 122px;
     
 }
+.educationtitle {
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+}
+.educationbar {
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 800px;
+    background-color: #333;
+}
+.education {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.modules1 p{
+    display: inline
+}
+#place {
+    font-weight: bold;
+}
+#secondyear{
+    font-weight: bold;
+}
+.modules2{
+    padding-top: 25px;
+}
+.modules2 p {
+    display: inline;
+}
+#firstyear {
+    font-weight: bold;
+}
+.kegs {
+    padding-top: 30px;
+}
+.kegs p{
+    display: inline
+}
+#place2 {
+    font-weight: bold;
+}
+.etone {
+    padding-top: 30px;
+}
+.etone p {
+    display: inline;
+}
+#place3 {
+    font-weight: bold;
+}
