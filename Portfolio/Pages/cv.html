@@ -86,9 +86,9 @@
                 <div class="col-md-12">
                     <div class="personaltitle">
                         <h3>Personal Profile</h3>
-                        <img id="personalarrow"src="/home/riceh3/205CDE-Worksheets/Portfolio/images/down-arrow-circle-hi.png" alt="arrow"/>
                         <form>
-                            <input type="button" onclick="showPersonal()" value="down" id="personaldown"/>
+                            <input type="button" onclick="personalDown()" value="down" id="personaldown"/>
+                            <input type="button" onclick="personalUp()" value="up" id="personalup"/>
                         </form>
                     </div>
                 </div>
@@ -116,49 +116,53 @@
                     <div class="techtitle">
                         <h3>Technical Skills</h3>
                         <form>
-                            <input type="button" onclick="satan()"value="down" id="why"/>
+                            <input type="button" onclick="techDown()" value="down" id="techdown"/>
+                            <input type="button" onclick="techUp()" value="up" id="techup"/>
                         </form>
                     </div>
                 </div>
             </div>
 
+  
             <div class="row">
                 <div class="col-md-12">
                     <div class="techbar">
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    
-                    <div class="skillrow1">
-  
-                        <ul>
-                            <li>&bullet; Python</li>
-                            <li>&bullet; Microsoft Packages</li>
-                            <li>&bullet; SQL</li>
-                            <li>&bullet; C++</li>
-                            <li id="space">&bullet; Git</li>
-                            <li id="space2">&bullet; Visual Studio</li>
-                        </ul>
-                    </div>
-                    <div class="skillrow2">
-                        <ul>
-                            <li>&bullet; C#</li>
-                            <li id="space3">&bullet; HTML/CSS</li>
-                            <li id="space4">&bullet; UK Driving License</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="padding">
             </div>
+            <figure>
+
+                <div class="row">
+                    <div class="col-md-4">
+
+                        <ul id="list">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="list2">
+
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                    
+                        <ul id="list3">
+
+                        </ul>
+                    </div>
+    
+                </div>
+            </figure>
 
             <div class="row">
                 <div class="col-md-12">
                     <div class="educationtitle">
                         <h3>Education</h3>
                         <form>
-                            <input type="button" onclick="jesus()"value="down" id="why"/>
+                            <input type="button" onclick="educationDown()" value="down" id="educationdown"/>
+                            <input type="button" onclick="educationUp()" value="up" id="educationup"/>
                         </form>
                     </div>
                 </div>
@@ -170,32 +174,31 @@
                     </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="education">
-                        <p id="place">Coventry University(2015-Present)</p>
+                        <p id="place"></p>
+                        
                         <div class="modules1">
-                            <p id="secondyear">Second Year Modules:</p>
-                            <p>Designing for Usability 2 - Developing for the modern Web 1 - 
-                                Programming, Algorithms and Data Structures - Data and Information Retrieval -
-                                Technology and it's Social, Legal and Ethical context - Making Money Online</p>
+                            <p id="secondyear"></p>
+                            <p id="modules1"></p>
+                        
                         </div>
 
                         <div class="modules2">
-                            <p id="firstyear">First Year Modules</p>
-                            <p>Introduction to Computing(72%) - Introduction to Algorithms(68%) - 
-                                Computer Architecture and Networks(60%) - Enterprise Information Systems(78%) - 
-                                Designing for Usability 1(66%) - Logic and Sets(68%) - Foundation App Development with 
-                                Microsoft Net Framework(100%).</p>
+                            <p id="firstyear"></p>
+                            <p id="modules2"></p>
                         </div>
+
                         <div class="kegs">
-                            <p id="place2">King Edward VI College(2013-2015):</p>
-                            <p>4 AS-Level and 3 A-Level(Accounting, Law, Business)</p>
+                            <p id="place2"></p>
+                            <p id="kegs"></p>
                         </div>
 
                         <div class="etone">
-                            <p id="place3">Etone College(2011-2013)</p>
-                            <p>10 GCSE'S graded between A-C, including English and Math's</p>
+                            <p id="place3"></p>
+                            <p id="etone"></p>
                         </div>
                     </div>
                 </div>

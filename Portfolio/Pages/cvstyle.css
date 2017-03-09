@@ -118,15 +118,7 @@ section {
 .personaltitle h3 {
     display: inline;
 }
-.personaltitle img {
-    height: 20px;
-    width: 20px; 
-    padding-bottom: 5px;
-    padding-top: 0px;
-    padding-left: 5px;
 
-    
-}
 .personalbar {
     
     display: block;
@@ -146,25 +138,34 @@ section {
     text-align: center;
     display: block;
     margin: auto;
-    padding-bottom: 5px;
+    
+}
+.techtitle h3 {
+    display: inline;
 }
 
-
 .techbar {
+    
     display: block;
     margin: auto;
     height: 3px;
     width: 800px;
     background-color: #333;
+    
 }
+
 .skillrow1 {
     display: block;
     margin: auto;
     width: 800px;
     padding: 25px;
-    padding-top: 40px;
+    margin-top:0px;
     text-align: left;
     
+    
+}
+.padding{
+    padding: 20px;
 }
 .skillrow1 li{
     padding-top: 0px;
@@ -373,4 +374,10 @@ section {
 }
 .newstuff {
     float: right;
+}
+figure {
+    width: 800px;
+    display: block;
+    margin: auto;
+
 }
