@@ -146,18 +146,10 @@ section {
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
-}
-.techtitle h3{
-    display: inline;
-}
-.techtitle img {
-    height: 20px;
-    width: 20px; 
     padding-bottom: 5px;
-    padding-top: 0px;
-    padding-left: 5px;
 }
+
+
 .techbar {
     display: block;
     margin: auto;
@@ -170,10 +162,12 @@ section {
     margin: auto;
     width: 800px;
     padding: 25px;
+    padding-top: 40px;
     text-align: left;
     
 }
 .skillrow1 li{
+    padding-top: 0px;
     display: inline;
     padding: 70px;
     
