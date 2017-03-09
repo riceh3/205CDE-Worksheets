@@ -4,9 +4,11 @@ function personalDown(){
 
     var personal = document.getElementById("personal");
     
-    personal.innerHTML = "Second year undergraduate studying Computing at Coventry Univeristy. Incredibley interested and inspired by the rapidly changing world of technology that we live in today, and I strive to develop and discover the future technical enhancements that habe yet to have been created. My future ambitions are to gain as much experience and practical skills as possible to work in the computer science industry. Main skills are; organisation, communication, team work, time managment and creativity.";
+    
+    personal.innerHTML = " enhancements that habe yet to have been created. My future ambitions are to gain as much experience and practical skills as possible to work in the computer science industry. Main skills are; organisation, communication, team work, time managment and creativity.";
     
 }
+
 function personalUp(){
     'use strict';
 
@@ -146,5 +148,5 @@ function workUp(){
 
     var workinfo2 = document.getElementById("argosinfo");
     workinfo2.innerHTML = " ";
-    
+
 }
