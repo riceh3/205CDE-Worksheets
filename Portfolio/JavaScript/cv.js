@@ -102,3 +102,49 @@ function educationUp(){
     var education9 = document.getElementById("etone");
     education9.innerHTML = " ";
 }
+
+function workDown(){
+    'use strict';
+
+    var workname = document.getElementById("bank");
+    workname.innerHTML = "Lloyds Banking Group - Summer Internship: ";
+
+    var workdate = document.getElementById("bankdate");
+    workdate.innerHTML = "June 2014 - August 2014: ";
+
+    var workinfo = document.getElementById("bankinfo");
+    workinfo.innerHTML = "As part of the Business academy program, I had the opportunity of working within the Birmingham branch of Lloyds bank. This experience was outstanding. I gained an in-depth view of the workings of the Bank, and greeted and advised customers using the branch. My main role was to encourage and initiate customers to use the new instant deposit machine in branch. Many customers were apprehensive, however once I introduced them to the advantages  of the machine, and hekped them navigate it, many then had the confidence to use it themselves.I gained skills in;Teamwork, organization and, communication. ";
+
+    var workname2 = document.getElementById("argos");
+    workname2.innerHTML = "Argos - Sales Assistant:";
+
+    var workdate2 = document.getElementById("argosdate");
+    workdate2.innerHTML = "November 2013 - January 2014:";
+
+    var workinfo2 = document.getElementById("argosinfo");
+    workinfo2.innerHTML = " Sales assistant, collect and distribute orders, assist and advise customers. I gained valuable experience with interacting and helping customers during a busy time. I gained skills in; Time management and, communication.";
+
+}
+
+function workUp(){
+    'use strict';
+
+    var workname = document.getElementById("bank");
+    workname.innerHTML = " ";
+
+    var workdate = document.getElementById("bankdate");
+    workdate.innerHTML = " ";
+
+    var workinfo = document.getElementById("bankinfo");
+    workinfo.innerHTML = " ";
+
+    var workname2 = document.getElementById("argos");
+    workname2.innerHTML = " ";
+
+    var workdate2 = document.getElementById("argosdate");
+    workdate2.innerHTML = " ";
+
+    var workinfo2 = document.getElementById("argosinfo");
+    workinfo2.innerHTML = " ";
+    
+}
