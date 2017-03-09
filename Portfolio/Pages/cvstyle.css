@@ -107,10 +107,25 @@ section {
    
 }
 .personaltitle {
+
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
+    padding-bottom: 5px;
+    
+  
+}
+.personaltitle h3 {
+    display: inline;
+}
+.personaltitle img {
+    height: 20px;
+    width: 20px; 
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+
+    
 }
 .personalbar {
     
@@ -132,6 +147,16 @@ section {
     display: block;
     margin: auto;
     position: relative;
+}
+.techtitle h3{
+    display: inline;
+}
+.techtitle img {
+    height: 20px;
+    width: 20px; 
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
 }
 .techbar {
     display: block;
@@ -352,6 +377,6 @@ section {
     margin: auto;
     width: 800px;
 }
-article {
-    background-color: white;
+.newstuff {
+    float: right;
 }
