@@ -345,6 +345,7 @@ figure {
     display: block;
     margin: auto;
     text-align: center;
+    padding-bottom: 0px;
 
    
 }
@@ -355,8 +356,6 @@ figure {
     margin: auto;
     text-align: center;
     font-size: 50px;
+    padding: 0px;
     
-}
-section {
-    padding-bottom: 0px;
 }
