@@ -33,6 +33,8 @@ function techDown(){
     var tech3 = document.getElementById("list3");
     tech3.innerHTML = "<ul><li>C#</li><li>HTML/CSS</li><li>Full UK Driving License</li></ul>";
 
+    var more = document.getElementById("moretech");
+    more.innerHTML = " ";
 }
 
 function techUp(){
@@ -46,6 +48,9 @@ function techUp(){
 
     var tech3 = document.getElementById("list3");
     tech3.innerHTML = " ";
+
+    var more = document.getElementById("moretech");
+    more.innerHTML = "...";
 }
 function educationDown(){
     'use strict';
@@ -77,6 +82,9 @@ function educationDown(){
     var education9 = document.getElementById("etone");
     education9.innerHTML = "10 GCSE'S graded between A-C, including English and Math's";
 
+    var more = document.getElementById("moreoption");
+    more.innerHTML = " ";
+
 }
 function educationUp(){
     'use strict';
@@ -107,6 +115,9 @@ function educationUp(){
 
     var education9 = document.getElementById("etone");
     education9.innerHTML = " ";
+
+    var more = document.getElementById("moreoption");
+    more.innerHTML = "...";
 }
 
 function workDown(){
@@ -130,6 +141,8 @@ function workDown(){
     var workinfo2 = document.getElementById("argosinfo");
     workinfo2.innerHTML = " Sales assistant, collect and distribute orders, assist and advise customers. I gained valuable experience with interacting and helping customers during a busy time. I gained skills in; Time management and, communication.";
 
+    var more = document.getElementById("more");
+    more.innerHTML = " ";
 }
 
 function workUp(){
@@ -152,5 +165,8 @@ function workUp(){
 
     var workinfo2 = document.getElementById("argosinfo");
     workinfo2.innerHTML = " ";
+
+    var more = document.getElementById("more");
+    more.innerHTML = "...";
 
 }

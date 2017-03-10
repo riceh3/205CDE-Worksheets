@@ -86,10 +86,14 @@
                 <div class="col-md-12">
                     <div class="personaltitle">
                         <h3>Personal Profile</h3>
-                        <form>
-                            <input type="button" onclick="personalDown()" value="down" id="personaldown"/>
-                            <input type="button" onclick="personalUp()" value="up" id="personalup"/>
-                        </form>
+                        <div class="buttons">
+                            <button type="button" onclick="personalDown()" id="butdown">Down</button>
+                            <form>
+                                
+                                <input type="button" onclick="personalDown()" value="down" id="personaldown"/>
+                                <input type="button" onclick="personalUp()" value="up" id="personalup"/>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,6 +143,7 @@
                     <div class="col-md-12">
                         <div class="intro">
                             <p>The following is a list of my current technical skills</p>
+                            <p id="moretech">...</p>
                         </div>
                     </div>
                 </div>
@@ -186,6 +191,10 @@
 
             <div class="row">
                 <div class="col-md-12">
+                    <div class="intro">
+                        <p id="introedu">The following is a list of my education</p>
+                        <p id="moreoption">...</p>
+                    </div>
                     <div class="education">
                         <p id="place"></p>
                         
