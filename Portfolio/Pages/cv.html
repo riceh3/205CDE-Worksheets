@@ -114,10 +114,6 @@
                 <div class="col-md-12">
                     <div class="techtitle">
                         <h3>Technical Skills</h3>
-                        <form>
-                            <input type="button" onclick="techDown()" value="down" id="techdown"/>
-                            <input type="button" onclick="techUp()" value="up" id="techup"/>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -134,9 +130,9 @@
             <figure>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="intro">
-                            <p>The following is a list of my current technical skills</p>
-                            <p id="moretech">...</p>
+                        <div class="introTech">
+                            <p>The following is a list of my current technical skills<button type="button" onclick="techDown()" id="moreTech">more</button></p>
+                            <p id="moretech"></p>
                         </div>
                     </div>
                 </div>
@@ -159,6 +155,7 @@
 
                         </ul>
                     </div>
+                    <button type="button" onclick="techUp()" id="lessTech">Less</button>
     
                 </div>
             </figure>
@@ -167,10 +164,6 @@
                 <div class="col-md-12">
                     <div class="educationtitle">
                         <h3>Education</h3>
-                        <form>
-                            <input type="button" onclick="educationDown()" value="down" id="educationdown"/>
-                            <input type="button" onclick="educationUp()" value="up" id="educationup"/>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -185,8 +178,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="intro">
-                        <p id="introedu">The following is a list of my education</p>
-                        <p id="moreoption">...</p>
+                        <p id="introedu">The following is a list of my education, with the most recent at the top. Please be adivsed that I am currently still studying for my degree.<button type="button" onclick="educationDown()" id="moreEducation">more</button></p>
+                            
                     </div>
                     <div class="education">
                         <p id="place"></p>
@@ -213,6 +206,7 @@
                         </div>
                     </div>
                 </div>
+                <button type="button" onclick="educationUp()" id="lessEducation">Less</button>
             </div>
             <div class="row">
                 <div class="col-md-12">

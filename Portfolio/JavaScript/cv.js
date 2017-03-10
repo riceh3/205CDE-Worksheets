@@ -1,5 +1,13 @@
-var up = document.getElementById("lesspersonal");
-window.onload = up.style.visibility = "hidden";
+window.onload = init;
+
+function init(){
+    var upPersonal = document.getElementById("lesspersonal");
+    var upTech = document.getElementById("lessTech");
+    var upEducation = document.getElementById("lessEducation");
+    upPersonal.style.visibility = "hidden";
+    upTech.style.visibility = "hidden";
+    upEducation.style.visibility = "hidden";
+}
 
 function personalDown(){
     'use strict';
@@ -43,8 +51,11 @@ function techDown(){
     var tech3 = document.getElementById("list3");
     tech3.innerHTML = "<ul><li>C#</li><li>HTML/CSS</li><li>Full UK Driving License</li></ul>";
 
-    var more = document.getElementById("moretech");
-    more.innerHTML = " ";
+    var more = document.getElementById("moreTech");
+    more.style.visibility = "hidden";
+
+    var up = document.getElementById("lessTech");
+    up.style.visibility = "visible";
 }
 
 function techUp(){
@@ -59,8 +70,11 @@ function techUp(){
     var tech3 = document.getElementById("list3");
     tech3.innerHTML = " ";
 
-    var more = document.getElementById("moretech");
-    more.innerHTML = "...";
+    var more = document.getElementById("moreTech");
+    more.style.visibility = "visible";
+
+    var up = document.getElementById("lessTech");
+    up.style.visibility = "hidden";
 }
 function educationDown(){
     'use strict';
@@ -92,8 +106,12 @@ function educationDown(){
     var education9 = document.getElementById("etone");
     education9.innerHTML = "10 GCSE'S graded between A-C, including English and Math's";
 
-    var more = document.getElementById("moreoption");
-    more.innerHTML = " ";
+    var more = document.getElementById("moreEducation");
+    more.style.visibility = "hidden";
+
+    var up = document.getElementById("lessEducation");
+    up.style.visibility = "visible";
+    
 
 }
 function educationUp(){
@@ -126,8 +144,11 @@ function educationUp(){
     var education9 = document.getElementById("etone");
     education9.innerHTML = " ";
 
-    var more = document.getElementById("moreoption");
-    more.innerHTML = "...";
+    var more = document.getElementById("moreEducation");
+    more.style.visibility = "visible";
+
+    var up = document.getElementById("lessEducation");
+    up.style.visibility = "hidden";
 }
 
 function workDown(){

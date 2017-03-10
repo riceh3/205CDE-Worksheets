@@ -343,13 +343,24 @@ figure {
 
 }
 
+
 .intro {
-    
+    padding-right: 25px;
+    padding-left: 25px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 0px;
+    width: 800px;
+    padding-top: 25px;
+ 
+}
+.introTech {
     display: block;
     margin: auto;
     text-align: center;
-    padding-bottom: 0px;
- 
+    
+    
 }
 
 
@@ -357,28 +368,62 @@ figure {
     background-color: white;
     border: none;
     color: lightseagreen;
-    
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 22px;
 }
-#introedu {
-    padding: 10px;
+#moreTech {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
 }
+
 
 #lesspersonal {
     background-color: white;
     border: none;
     color: lightseagreen;
-    
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-size: 25px;
+}
+#lessTech{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
     font-size: 25px;
 }
 .personalprofile p {
     display: inline;
     text-align: left;
     
+}
+#moreEducation{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px; 
+}
+#lessEducation {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
 }
