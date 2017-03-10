@@ -209,3 +209,17 @@ function workUp(){
     up.style.visibility = "hidden";
 
 }
+
+function projectDown(){
+    'use strict';
+
+    var projects = document.getElementById("projectOne");
+    projects.innerHTML = "During my first year of univeristy I worked in a team of six to delevop a game of 'Tic Tac Toe' in python. The aim was to use AGILE project planning and developemtn, as well as create the game to be playable both online vs another player and offline against the computer AI. My responsibilities were:";
+
+    var more = document.getElementById("moreProject");
+    var up = document.getElementById("lessProject");
+
+    up.style.visibility = "visible";
+    
+    more.style.visibility = "hidden";
+}

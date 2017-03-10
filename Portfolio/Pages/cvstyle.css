@@ -361,6 +361,25 @@ figure {
     text-align: center;
     
     
+  
+}
+.projectintro {
+    width: 800px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+#moreProject {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
 }
 
 
@@ -456,4 +475,7 @@ figure {
 }
 .workintro p{
     text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
 }
