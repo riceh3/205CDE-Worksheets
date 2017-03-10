@@ -212,10 +212,6 @@
                 <div class="col-md-12">
                     <div class="worktitle">
                         <h3 id="work">Work Experience</h3>
-                        <form>
-                            <input type="button" onclick="workDown()" value="down" id="workdown"/>
-                            <input type="button" onclick="workUp()" value="up" id="workup"/>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -228,6 +224,9 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    <div class="workintro">
+                        <p>The following shows all of my work experience, including dates or employment and descriptions. Please refer to the experience page for more informatio<button type="button" onclick="workDown()" id="moreWork">more</button></p>
+                    </div>
                     <div class="workone">
                         <p id="bank"></p>
                         <p id="bankdate"></p>
@@ -239,6 +238,7 @@
                         <p id="argosinfo"></p>
                     </div>
                 </div>
+                <button type="button" onclick="workUp()" id="lessWork">Less</button>
             </div>
 
             <div class="row">

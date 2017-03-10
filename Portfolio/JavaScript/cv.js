@@ -4,6 +4,8 @@ function init(){
     var upPersonal = document.getElementById("lesspersonal");
     var upTech = document.getElementById("lessTech");
     var upEducation = document.getElementById("lessEducation");
+    var upWork = document.getElementById("lessWork");
+    upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
     upEducation.style.visibility = "hidden";
@@ -172,8 +174,11 @@ function workDown(){
     var workinfo2 = document.getElementById("argosinfo");
     workinfo2.innerHTML = " Sales assistant, collect and distribute orders, assist and advise customers. I gained valuable experience with interacting and helping customers during a busy time. I gained skills in; Time management and, communication.";
 
-    var more = document.getElementById("more");
-    more.innerHTML = " ";
+    var more = document.getElementById("moreWork");
+    more.style.visibility = "hidden";
+
+    var up = document.getElementById("lessWork");
+    up.style.visibility = "visible";
 }
 
 function workUp(){
@@ -197,7 +202,10 @@ function workUp(){
     var workinfo2 = document.getElementById("argosinfo");
     workinfo2.innerHTML = " ";
 
-    var more = document.getElementById("more");
-    more.innerHTML = "...";
+    var more = document.getElementById("moreWork");
+    more.style.visibility = "visible";
+
+    var up = document.getElementById("lessWork");
+    up.style.visibility = "hidden";
 
 }

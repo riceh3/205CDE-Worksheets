@@ -427,3 +427,33 @@ figure {
     margin: auto;
     font-size: 25px;
 }
+#moreWork {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+#lessWork{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+.workintro{
+    display: block;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.workintro p{
+    text-align: left;
+}
