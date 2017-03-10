@@ -1,11 +1,17 @@
+var up = document.getElementById("lesspersonal");
+window.onload = up.style.visibility = "hidden";
 
 function personalDown(){
     'use strict';
 
     var personal = document.getElementById("personal");
-    var more = document.getElementById("more");
+    var more = document.getElementById("morepersonal");
+    var up = document.getElementById("lesspersonal");
 
-    more.innerHTML = " ";
+    up.style.visibility = "visible";
+    
+    more.style.visibility = "hidden";
+
     
     personal.innerHTML = " enhancements that habe yet to have been created. My future ambitions are to gain as much experience and practical skills as possible to work in the computer science industry. Main skills are; organisation, communication, team work, time managment and creativity.";
     
@@ -14,11 +20,15 @@ function personalDown(){
 function personalUp(){
     'use strict';
 
+
     var personal = document.getElementById("personal");
-    var more = document.getElementById("more");
-    
+    var more = document.getElementById("morepersonal");
+    more.style.visibility = "visible";
+    var up = document.getElementById("lesspersonal");
+
     personal.innerHTML = " ";
-    more.innerHTML = "...";
+    up.style.visibility = "hidden";
+    
 }
 
 function techDown(){

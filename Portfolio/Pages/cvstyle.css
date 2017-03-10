@@ -351,31 +351,34 @@ figure {
     padding-bottom: 0px;
  
 }
-#personalintro {
-    display: inline-block;
-    padding: 0px;
-}
 
-#more {
-    float: right;
+
+#morepersonal {
+    background-color: white;
+    border: none;
     color: lightseagreen;
-    padding-left: 0px;
-    font-size: 50px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 30px;
-    margin-top: -67px;
     
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
 }
 #introedu {
     padding: 10px;
 }
-.buttons {
-    margin-left: 10px;
-    margin: 0px;
-    float: right;
-    padding: 0px;
+
+#lesspersonal {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
 }
-#butdown{
-    background-color: lightseagreen;
+.personalprofile p {
+    display: inline;
+    text-align: left;
+    
 }
