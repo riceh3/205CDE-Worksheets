@@ -229,6 +229,8 @@ section {
     display: block;
     margin: auto;
     width: 800px;
+    padding-right: 25px;
+    padding-left: 25px;
     
 }
 .workone p {
@@ -242,10 +244,12 @@ section {
     font-weight: bold;
 }
 .worktwo{
-    padding-top: 10px;
+    
     display: block;
     margin: auto;
     width: 800px;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .worktwo p{
     display: inline;
@@ -457,8 +461,7 @@ figure {
     margin: auto;
     width: 800px;
     text-align: center;
-    padding-left: 25px;
-    padding-right: 25px;
+
 }
 .workintro p{
     text-align: left;
