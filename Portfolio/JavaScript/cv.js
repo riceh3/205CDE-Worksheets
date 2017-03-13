@@ -5,10 +5,17 @@ function init(){
     var upTech = document.getElementById("lessTech");
     var upEducation = document.getElementById("lessEducation");
     var upWork = document.getElementById("lessWork");
+    
+ 
+
     upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
     upEducation.style.visibility = "hidden";
+
+    var size = document.getElementById('education');
+    size.style.height = '10px';
+    size.style.padding = "0px";
 }
 
 function personalDown(){
@@ -80,6 +87,10 @@ function techUp(){
 }
 function educationDown(){
     'use strict';
+    var size = document.getElementById('education');
+    size.style.height = '500px';
+    size.style.padding = "25px";
+
 
     var education = document.getElementById("place");
     education.innerHTML = "Coventry University(2015-Present)";
@@ -118,6 +129,10 @@ function educationDown(){
 }
 function educationUp(){
     'use strict';
+
+    var size = document.getElementById('education');
+    size.style.height = '10px';
+    size.style.padding = "0px";
 
     var education = document.getElementById("place");
     education.innerHTML = " ";

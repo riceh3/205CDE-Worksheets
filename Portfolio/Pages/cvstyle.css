@@ -177,12 +177,14 @@ section {
     width: 800px;
     background-color: #333;
 }
-.education {
+#education {
     padding: 25px;
     display: block;
     margin: auto;
     width: 800px;
+    
 }
+
 .modules1 p{
     display: inline
 }
@@ -219,6 +221,8 @@ section {
 #place3 {
     font-weight: bold;
 }
+
+
 .worktitle{
     text-align: center;
     display: block;
