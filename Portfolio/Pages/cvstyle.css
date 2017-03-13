@@ -40,6 +40,7 @@ section {
     width: 1090px; 
     display: block;
     margin: auto;
+    padding-bottom: 25px;
     
 }
 .menu ul {
@@ -74,59 +75,45 @@ section {
     color: lightseagreen;
 }
 
-.headtopbar {
-    
-    display: block;
-    margin: auto;
-    margin-top: 30px;
-    height: 3px;
-    width: 800px;
-    background-color: #333;
-}
+
 .tophead {
+    
     text-align: center;
     display: block;
     margin: auto;
-    
-
-}
-.headlowbar {
-    
-    display: block;
-    margin: auto;
-    height: 3px;
+    border-width: 3px;
+    border-color: #333;
+    border-top: solid;
+    border-bottom: solid;
     width: 800px;
-    background-color: #333;
+    
 }
+
+
 .email {
     display: block;
     margin: auto;
     width: 800px;
     padding: 25px;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
    
 }
 .personaltitle {
-
+    padding: 10px;
+    border-width: 3px;
+    border-color: #333;
+    border-top: solid;
+    border-bottom: solid;
     text-align: center;
     display: block;
     margin: auto;
-    padding-bottom: 5px;
+    width: 800px;
     
   
 }
 .personaltitle h3 {
     display: block;
     margin: auto;
-}
-
-.personalbar {
-    
-    display: block;
-    margin: auto;
-    height: 3px;
-    width: 800px;
-    background-color: #333;
 }
 
 .personalprofile {
@@ -140,49 +127,53 @@ section {
     
 }
 .techtitle {
+    padding: 10px;
     text-align: center;
     display: block;
     margin: auto;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
     
 }
 .techtitle h3 {
     display: inline;
 }
-
-.techbar {
-    
+.introTech {
+    padding-top: 10px;
     display: block;
     margin: auto;
-    height: 3px;
-    width: 800px;
-    background-color: #333;
-    
-}
-
-.padding{
-    padding: 20px;
+    text-align: center;
+ 
 }
 
 
 .educationtitle {
+    padding: 10px;
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
-}
-.educationbar {
-    display: block;
-    margin: auto;
-    height: 3px;
     width: 800px;
-    background-color: #333;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
 }
+.educationtitle h3 {
+    display: inline;
+}
+
+
 #education {
-    padding: 25px;
     display: block;
     margin: auto;
     width: 800px;
-    background-color: red;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
     
 }
 #place {
@@ -204,21 +195,13 @@ section {
 #firstyear {
     font-weight: bold;
 }
-.kegs {
-    padding-top: 30px;
-}
 .kegs p{
-  
-  
     display: inline
 }
 #place2 {
-
     font-weight: bold;
 }
-.etone {
-    padding-top: 30px;
-}
+
 .etone p {
     display: inline;
 }
@@ -226,28 +209,31 @@ section {
     font-weight: bold;
 }
 
-
 .worktitle{
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
-}
-.workbar{
-    display: block;
-    margin: auto;
-    height: 3px;
     width: 800px;
-    background-color: #333;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
 }
+.worktitle h3 {
+    display: inline;
+}
+
 .workone {
-    padding: 25px;
+    
     display: block;
     margin: auto;
     width: 800px;
+    
 }
 .workone p {
     display: inline;
+
 }
 #bank {
     font-weight: bold;
@@ -256,7 +242,7 @@ section {
     font-weight: bold;
 }
 .worktwo{
-    padding: 25px;
+    padding-top: 10px;
     display: block;
     margin: auto;
     width: 800px;
@@ -363,14 +349,7 @@ figure {
     padding-top: 25px;
  
 }
-.introTech {
-    display: block;
-    margin: auto;
-    text-align: center;
-    
-    
-  
-}
+
 .projectintro {
     width: 800px;
     display: block;

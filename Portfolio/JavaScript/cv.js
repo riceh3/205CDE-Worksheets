@@ -5,27 +5,17 @@ function init(){
     var upTech = document.getElementById("lessTech");
     var upEducation = document.getElementById("lessEducation");
     var upWork = document.getElementById("lessWork");
-    
- 
-
+   
     upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
     upEducation.style.visibility = "hidden";
-    
 
-    var size = document.getElementById('education');
-    size.style.height = '10px';
-    size.style.padding = "0px";
-
-   
 }
 
 function personalDown(){
     'use strict';
 
-    
- 
 
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");
@@ -42,8 +32,6 @@ function personalDown(){
 
 function personalUp(){
     'use strict';
-
-    
 
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");
@@ -94,9 +82,6 @@ function techUp(){
 }
 function educationDown(){
     'use strict';
-    var size = document.getElementById('education');
-    size.style.height = '500px';
-    size.style.padding = "25px";
 
 
     var education = document.getElementById("place");
@@ -136,10 +121,6 @@ function educationDown(){
 }
 function educationUp(){
     'use strict';
-
-    var size = document.getElementById('education');
-    size.style.height = '10px';
-    size.style.padding = "0px";
 
     var education = document.getElementById("place");
     education.innerHTML = " ";
