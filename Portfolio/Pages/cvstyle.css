@@ -265,14 +265,17 @@ section {
     display: block;
     margin: auto;
     position: relative;
-}
-.projectbar {
-    display: block;
-    margin: auto;
-    height: 3px;
     width: 800px;
-    background-color: #333;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
 }
+.projecttitle h3{
+    display: inline;
+}
+
 .projects {
     padding: 25px;
     display: block;
@@ -358,10 +361,10 @@ figure {
     width: 800px;
     display: block;
     margin: auto;
-    text-align: left;
+    text-align: center;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 25px;
+   
 }
 #moreProject {
     background-color: white;
