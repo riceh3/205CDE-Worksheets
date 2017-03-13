@@ -12,14 +12,20 @@ function init(){
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
     upEducation.style.visibility = "hidden";
+    
 
     var size = document.getElementById('education');
     size.style.height = '10px';
     size.style.padding = "0px";
+
+   
 }
 
 function personalDown(){
     'use strict';
+
+    
+ 
 
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");
@@ -37,6 +43,7 @@ function personalDown(){
 function personalUp(){
     'use strict';
 
+    
 
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");

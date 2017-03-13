@@ -182,15 +182,16 @@ section {
     display: block;
     margin: auto;
     width: 800px;
+    background-color: red;
     
-}
-
-.modules1 p{
-    display: inline
 }
 #place {
     font-weight: bold;
 }
+.modules1 p{
+    display: inline
+}
+
 #secondyear{
     font-weight: bold;
 }
@@ -207,9 +208,12 @@ section {
     padding-top: 30px;
 }
 .kegs p{
+  
+  
     display: inline
 }
 #place2 {
+
     font-weight: bold;
 }
 .etone {
