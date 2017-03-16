@@ -102,9 +102,11 @@
             <figure>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="introTech">
-                            <p id="techwords">The following is a list of my current technical skills<button type="button" onclick="techDown()" id="moreTech">more</button></p>
-                            <p id="moretech"></p>
+                        <div id="techsection1">
+                            <div class="introTech">
+                                <p id="techwords">The following is a list of my current technical skills<button type="button" onclick="techDown()" id="moreTech">more</button></p>
+                                <p id="moretech"></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -142,33 +144,37 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="intro">
-                        <p id="introedu">The following is a list of my education, with the most recent at the top. Please be adivsed that I am currently still studying for my degree.<button type="button" onclick="educationDown()" id="moreEducation">more</button></p>          
+                    <div id="edusection">
+                        <div class="intro">
+                            <p id="introedu">The following is a list of my education, with the most recent at the top. Please be adivsed that I am currently still studying for my degree.<button type="button" onclick="educationDown()" id="moreEducation">more</button></p>          
+                        </div>
+                        
+                        <div class="education" id="education">
+                            <p id="place"></p>
+                            <div class="modules1">
+                                <p id="secondyear"></p>
+                                <p id="modules1"></p>    
+                            </div>
+                            <div class="modules2">
+                                <p id="firstyear"></p>
+                                <p id="modules2"></p>
+                            </div>
+                            <div class="kegs">
+                                <br>
+                                <p id="place2"></p>
+                                <p id="kegs"></p>
+                            </div>
+                            <div class="etone">
+                                <br>
+                                <p id="place3"></p>
+                                <p id="etone"></p>
+                            </div>
+                        </div>
                     </div>
-                    
-                    <div class="education" id="education">
-                        <p id="place"></p>
-                        <div class="modules1">
-                            <p id="secondyear"></p>
-                            <p id="modules1"></p>    
-                        </div>
-                        <div class="modules2">
-                            <p id="firstyear"></p>
-                            <p id="modules2"></p>
-                        </div>
-                        <div class="kegs">
-                            <br>
-                            <p id="place2"></p>
-                            <p id="kegs"></p>
-                        </div>
-                        <div class="etone">
-                            <br>
-                            <p id="place3"></p>
-                            <p id="etone"></p>
-                        </div>
-                    </div>
+                    <button type="button" onclick="educationUp()" id="lessEducation">Less</button>
+
                 </div>
-                <button type="button" onclick="educationUp()" id="lessEducation">Less</button>
+
             </div>
            
 
@@ -184,22 +190,24 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="workintro">
-                        <p>The following shows all of my work experience, including dates or employment and descriptions. Please refer to the experience page for more informatio<button type="button" onclick="workDown()" id="moreWork">more</button></p>
-                    </div>
-                    <div class="workone">
-                        <p id="bank"></p>
-                        <p id="bankdate"></p>
-                        <p id="bankinfo"></p>
-                    </div>
-                    <div class="worktwo">
-                        <br>
-                        <p id="argos"></p>
-                        <p id="argosdate"></p>
-                        <p id="argosinfo"></p>
+                    <div id="worksection">
+                        <div class="workintro">
+                            <p>The following shows all of my work experience, including dates or employment and descriptions. Please refer to the experience page for more informatio<button type="button" onclick="workDown()" id="moreWork">more</button></p>
+                        </div>
+                        <div class="workone">
+                            <p id="bank"></p>
+                            <p id="bankdate"></p>
+                            <p id="bankinfo"></p>
+                        </div>
+                        <div class="worktwo">
+                            <br>
+                            <p id="argos"></p>
+                            <p id="argosdate"></p>
+                            <p id="argosinfo"></p>
+                        </div>
+                        <button type="button" onclick="workUp()" id="lessWork">Less</button>
                     </div>
                 </div>
-                <button type="button" onclick="workUp()" id="lessWork">Less</button>
             </div>
         
 
@@ -252,16 +260,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="hobbiebar">
-                    </div>
-                </div>
-            </div>
+
             <div class="row">
                 <div class="col-md-12">
                     <div class="hobbies">
-                        <p>My main hobbies are programming, skiing, snowboarding, gaming, and watching movies.
+                        <p id="hobbietext">My main hobbies are programming, skiing, snowboarding, gaming, and watching movies.
                             I have been skiing and snowboarding for five years across the French and Swiss Alps. 
                             In my free time I enjoy working on my own personal projects, such as mini games in 
                             python and C++, in order to further develop my coding skills. I also enjoy spectating 

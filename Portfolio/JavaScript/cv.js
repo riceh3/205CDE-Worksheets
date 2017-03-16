@@ -11,8 +11,15 @@ function init(){
     var upProjects = document.getElementById("lessProject");
     var personalsection = document.getElementById("personalsection");
     var section = document.getElementById("section");
+    var techsection1 = document.getElementById("techsection1");
+    var edusection = document.getElementById("edusection");
+    var worksection = document.getElementById("worksection");
 
+
+    worksection.style.height = "90px";
     personalsection.style.height = "90px";
+    techsection1.style.height = "50px";
+    edusection.style.height = "50px";
     section.style.height = "50px";
     upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
@@ -97,6 +104,9 @@ function techUp(){
 function educationDown(){
     'use strict';
 
+    var edusection = document.getElementById("edusection");
+    edusection.style.height = "400px";
+
 
     var education = document.getElementById("place");
     education.innerHTML = "Coventry University(2015-Present)";
@@ -136,6 +146,9 @@ function educationDown(){
 function educationUp(){
     'use strict';
 
+    var edusection = document.getElementById("edusection");
+    edusection.style.height = "50px";
+
     var education = document.getElementById("place");
     education.innerHTML = " ";
 
@@ -173,6 +186,9 @@ function educationUp(){
 function workDown(){
     'use strict';
 
+    var worksection = document.getElementById("worksection");
+    worksection.style.height = "400px";
+
     var workname = document.getElementById("bank");
     workname.innerHTML = "Lloyds Banking Group - Summer Internship: ";
 
@@ -200,6 +216,9 @@ function workDown(){
 
 function workUp(){
     'use strict';
+
+    var worksection = document.getElementById("worksection");
+    worksection.style.height = "90px";
 
     var workname = document.getElementById("bank");
     workname.innerHTML = " ";
@@ -294,3 +313,4 @@ function projectUp(){
     more.style.visibility = "visible";
    
 }
+

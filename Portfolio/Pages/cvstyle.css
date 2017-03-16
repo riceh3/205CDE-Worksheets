@@ -81,11 +81,13 @@ section {
     text-align: center;
     display: block;
     margin: auto;
-    border-width: 3px;
-    border-color: #333;
+    position: relative;
+    width: 800px;
     border-top: solid;
     border-bottom: solid;
-    width: 800px;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
     
 }
 
@@ -316,18 +318,22 @@ section {
     padding: 35px;
 }
 .hobbietitle {
+
+    padding: 10px;
     text-align: center;
     display: block;
     margin: auto;
-    position: relative;
-}
-.hobbiebar{
-    display: block;
-    margin: auto;
-    height: 3px;
     width: 800px;
-    background-color: #333;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    
 }
+.hobbietitle h3 {
+    display: inline;
+}
+
 .hobbies {
     padding: 25px;
     display: block;
@@ -361,7 +367,7 @@ figure {
     width: 800px;
     display: block;
     margin: auto;
-    text-align: center;
+    text-align: left;
     padding-left: 25px;
     padding-right: 25px;
    
