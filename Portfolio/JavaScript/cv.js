@@ -1,12 +1,19 @@
 window.onload = init;
 
 function init(){
+    'use strict';
+
     var upPersonal = document.getElementById("lesspersonal");
+    
     var upTech = document.getElementById("lessTech");
     var upEducation = document.getElementById("lessEducation");
     var upWork = document.getElementById("lessWork");
     var upProjects = document.getElementById("lessProject");
-   
+    var personalsection = document.getElementById("personalsection");
+    var section = document.getElementById("section");
+
+    personalsection.style.height = "90px";
+    section.style.height = "50px";
     upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
@@ -21,6 +28,9 @@ function personalDown(){
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");
     var up = document.getElementById("lesspersonal");
+    var personalsection = document.getElementById("personalsection");
+
+    personalsection.style.height = "200px";
 
     up.style.visibility = "visible";
     
@@ -33,6 +43,9 @@ function personalDown(){
 
 function personalUp(){
     'use strict';
+    
+    var personalsection = document.getElementById("personalsection");
+    personalsection.style.height = "90px";
 
     var personal = document.getElementById("personal");
     var more = document.getElementById("morepersonal");
@@ -229,9 +242,20 @@ function projectDown(){
     var project1text = document.getElementById("project1text");
     project1text.innerHTML = "To complete this project, I used my technical skills in, Python and Microsoft packages. I also used teamwork, communication and organization to ensure the project was a success. We completed this projects in time and achieved first class marks of 80%, we also further developed the game to include sounds, and title screen. I learned how to implement my prgramming skills to solve problems and work in a team enviroment with multiple developers generating and editing code.";
 
+    var project2intro = document.getElementById("project2intro");
+    project2intro.innerHTML = "I also worked in a team of three to create a web-based wayfinding system for Coventry University. The aim was to create a very efficent, 'user-friendly' system. My tasks were:  ";
+    
+    var project2list = document.getElementById("project2list");
+    project2list.innerHTML = "<ul><li>&bullet;&nbsp;Design and create the web pages</li><li>&bullet;&nbsp;Create and implement the maps</li></ul>";
+
+
     var more = document.getElementById("moreProject");
     var up = document.getElementById("lessProject");
 
+    var section = document.getElementById("section");
+
+
+    section.style.height = "600px";
 
     up.style.visibility = "visible";
     
@@ -254,8 +278,16 @@ function projectUp(){
     var project1text = document.getElementById("project1text");
     project1text.innerHTML = " ";
 
+    var project2intro = document.getElementById("project2intro");
+    project2intro.innerHTML = " ";
+
+    var project2list = document.getElementById("project2list");
+    project2list.innerHTML = " ";
+
     var more = document.getElementById("moreProject");
     var up = document.getElementById("lessProject");
+    var section = document.getElementById("section");
+    section.style.height = "50px";
 
     up.style.visibility = "hidden";
     

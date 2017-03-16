@@ -484,3 +484,7 @@ figure {
     margin: auto;
     font-size: 25px;
 }
+
+.section {
+    height: 200px;
+}
