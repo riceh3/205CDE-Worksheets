@@ -5,12 +5,13 @@ function init(){
     var upTech = document.getElementById("lessTech");
     var upEducation = document.getElementById("lessEducation");
     var upWork = document.getElementById("lessWork");
+    var upProjects = document.getElementById("lessProject");
    
     upWork.style.visibility = "hidden";
     upPersonal.style.visibility = "hidden";
     upTech.style.visibility = "hidden";
     upEducation.style.visibility = "hidden";
-
+    upProjects.style.visibility = "hidden";
 }
 
 function personalDown(){
@@ -219,10 +220,45 @@ function projectDown(){
     var projects = document.getElementById("projectOne");
     projects.innerHTML = "During my first year of univeristy I worked in a team of six to delevop a game of 'Tic Tac Toe' in python. The aim was to use AGILE project planning and developemtn, as well as create the game to be playable both online vs another player and offline against the computer AI. My responsibilities were:";
 
+    var projectslist1 = document.getElementById("projectlist");
+    projectslist1.innerHTML = "<ul><li>&bullet;&nbsp;Create online server</li><li>&bullet;&nbsp;Code the win conditions</li><li>&bullet;&nbsp;Design and code the game menu</li></ul>";
+
+    var projectslist2 = document.getElementById("projectlist2");
+    projectslist2.innerHTML = "<ul><li>&bullet;&nbsp;Create the user guide</li><li>&bullet;&nbsp;Code game board for input and selection</li></ul>";
+
+    var project1text = document.getElementById("project1text");
+    project1text.innerHTML = "To complete this project, I used my technical skills in, Python and Microsoft packages. I also used teamwork, communication and organization to ensure the project was a success. We completed this projects in time and achieved first class marks of 80%, we also further developed the game to include sounds, and title screen. I learned how to implement my prgramming skills to solve problems and work in a team enviroment with multiple developers generating and editing code.";
+
     var more = document.getElementById("moreProject");
     var up = document.getElementById("lessProject");
+
 
     up.style.visibility = "visible";
     
     more.style.visibility = "hidden";
+
+
+}
+function projectUp(){
+    'use strict';
+
+    var projects = document.getElementById("projectOne");
+    projects.innerHTML = " ";
+
+    var projectslist1 = document.getElementById("projectlist");
+    projectslist1.innerHTML = " ";
+
+    var projectslist2 = document.getElementById("projectlist2");
+    projectslist2.innerHTML = " ";
+
+    var project1text = document.getElementById("project1text");
+    project1text.innerHTML = " ";
+
+    var more = document.getElementById("moreProject");
+    var up = document.getElementById("lessProject");
+
+    up.style.visibility = "hidden";
+    
+    more.style.visibility = "visible";
+   
 }
