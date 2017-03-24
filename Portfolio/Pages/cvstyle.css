@@ -1,0 +1,498 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
+
+}
+
+.header img {
+    max-width: 100%;
+    width: 1090px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top:50px;
+}
+
+section {
+    position: relative;
+    margin-top: -200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+
+}
+.under {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.menu {
+    padding-top: 33px;
+    max-width: 100%;
+    width: 1090px; 
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+    
+}
+.menu ul {
+    position: relative; 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+
+} 
+.menu li {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+.menu li a:active{
+    color: lightseagreen;
+}
+.menu li a:hover {
+    color: lightseagreen;
+}
+
+
+.tophead {
+    
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
+    
+}
+
+
+.email {
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding: 25px;
+    padding-bottom: 25px;
+   
+}
+.personaltitle {
+    padding: 10px;
+    border-width: 3px;
+    border-color: #333;
+    border-top: solid;
+    border-bottom: solid;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+    
+  
+}
+.personaltitle h3 {
+    display: block;
+    margin: auto;
+}
+
+.personalprofile {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    display: block;
+    margin: auto;
+    width: 800px;
+    
+}
+.techtitle {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    
+}
+.techtitle h3 {
+    display: inline;
+}
+.introTech {
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    text-align: center;
+ 
+}
+
+
+.educationtitle {
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+}
+.educationtitle h3 {
+    display: inline;
+}
+
+
+#education {
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+    
+}
+#place {
+    font-weight: bold;
+}
+.modules1 p{
+    display: inline
+}
+
+#secondyear{
+    font-weight: bold;
+}
+.modules2{
+    padding-top: 25px;
+}
+.modules2 p {
+    display: inline;
+}
+#firstyear {
+    font-weight: bold;
+}
+.kegs p{
+    display: inline
+}
+#place2 {
+    font-weight: bold;
+}
+
+.etone p {
+    display: inline;
+}
+#place3 {
+    font-weight: bold;
+}
+
+.worktitle{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
+}
+.worktitle h3 {
+    display: inline;
+}
+
+.workone {
+    
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+.workone p {
+    display: inline;
+
+}
+#bank {
+    font-weight: bold;
+}
+#bankdate {
+    font-weight: bold;
+}
+.worktwo{
+    
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.worktwo p{
+    display: inline;
+}
+#argos {
+    font-weight: bold;
+}
+#argosdate {
+    font-weight: bold;
+}
+.projecttitle {
+    text-align: center;
+    display: block;
+    margin: auto;
+    position: relative;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    padding: 10px;
+}
+.projecttitle h3{
+    display: inline;
+}
+
+.projects {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.projectlist1 {
+    display: block;
+    margin: auto;
+    width: 800px;
+    
+}
+.projectlist1 li{
+    display: inline;
+    padding: 35px;
+}
+.project1more {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.project2 {
+    padding-top: 0px;
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.projectlist2 {
+    display: block;
+    margin: auto;
+    width: 800px; 
+    text-align: left;
+}
+.projectlist2 li{
+    display: inline;
+    padding: 35px;
+}
+.hobbietitle {
+
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #333;
+    
+}
+.hobbietitle h3 {
+    display: inline;
+}
+
+.hobbies {
+    padding: 25px;
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+.newstuff {
+    float: right;
+}
+figure {
+    width: 800px;
+    display: block;
+    margin: auto;
+
+}
+
+
+.intro {
+    padding-right: 25px;
+    padding-left: 25px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 0px;
+    width: 800px;
+    padding-top: 25px;
+ 
+}
+
+.projectintro {
+    width: 800px;
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+   
+}
+#moreProject {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+
+#morepersonal {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    
+}
+
+#moreTech {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+
+
+#lesspersonal {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+#lessTech{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+.personalprofile p {
+    display: inline;
+    text-align: left;
+    
+}
+#moreEducation{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px; 
+}
+#lessEducation {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+#moreWork {
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+}
+#lessWork{
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+.workintro{
+    display: block;
+    margin: auto;
+    width: 800px;
+    text-align: center;
+
+}
+.workintro p{
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+#lessProject{
+
+    background-color: white;
+    border: none;
+    color: lightseagreen;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    font-size: 25px;
+}
+
+.section {
+    height: 200px;
+}

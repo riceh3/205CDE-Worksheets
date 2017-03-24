@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Handling events in IE8 and earlier </title>
+	<style>
+		span {
+			cursor: pointer;
+		}
+	</style>
+	<script>
+		window.onload = function() {
+			var div = document.getElementById("clickme");
+            eventHandler();
+			if (div.addEventListener) {
+				div.addEventListener("click", handleClick, false);
+			}
+			else if (div.attachEvent) {
+				div.attachEvent("click", handleClick);
+			}
+		};
+
+		function handleClick(e) {
+			var evt = e || window.event;
+			var target;
+			if (evt.target) {
+				target = evt.target;
+			}
+			else {
+				target = evt.srcElement;
+			}
+			alert("You clicked on " + target.id);
+		}
+
+        function eventHandler(){
+            var content = document.getElementById("content");
+            if (content.addEventListener){
+                content.addEventListener("content", inTheDiv, false);
+            }
+            else if (content.attachEvent){
+                content.attachEvent("content", inTheDiv);
+            }
+        }
+
+        function inTheDiv(a){
+            var x = a || window.event;
+            var go;
+            if (x.go){
+                go = x.go;
+            }
+            else{
+                go = x.onmouseover;
+            }
+            alert("you clicked on the paragraph" + x.id);
+
+        }
+	</script>
+</head>
+
+<body>
+	<span id="clickme">Click me!</span>
+    <div id="content">
+        <p>content</p>
+    </div>
+</body>
+
+</html>

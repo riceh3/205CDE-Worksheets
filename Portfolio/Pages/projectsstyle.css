@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
+
+}
+
+.header img {
+    max-width: 100%;
+    width: 1090px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top:50px;
+}
+
+section {
+    position: relative;
+    margin-top: -200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+
+}
+.under {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.menu {
+    padding-top: 33px;
+    max-width: 100%;
+    width: 1090px; 
+    display: block;
+    margin: auto;
+    
+}
+.menu ul {
+    position: relative; 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+
+} 
+.menu li {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+.menu li a:active{
+    color: lightseagreen;
+}
+.menu li a:hover {
+    color: lightseagreen;
+}

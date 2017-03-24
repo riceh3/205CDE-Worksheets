@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/home/riceh3/205CDE-Worksheets/Portfolio/images/background.jpg');
+
+}
+
+.header img {
+    max-width: 100%;
+    width: 1090px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding-top:50px;
+    margin-bottom: 0px;
+}
+
+section {
+    position: relative;
+    margin-top: -200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    
+
+}
+.under {
+    
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+.menu {
+    padding-top: 20px;
+    max-width: 100%;
+    width: 1090px; 
+    display: block;
+    margin: auto;
+    
+
+    
+}
+.menu ul {
+    position: relative; 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+
+} 
+.menu li {
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+.menu li a:active{
+    color: lightseagreen;
+}
+.menu li a:hover {
+    color: lightseagreen;
+}
+figure {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+figure li a:hover{
+    color: lightseagreen;
+    text-decoration: none;
+}
+figure h2 {
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+figure ul li {
+    text-decoration: none;
+    
+    padding-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic; 
+    font-size: 15px;
+}
+figure ul li a{
+    color: #333;
+}
+article {
+
+    margin-right: 24px;
+    margin-left: 50px;
+    margin-top: 26px;
+}
+article h1 {
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    background-color: #333;
+}
+.current {
+    padding: 10px;
+    border-left: solid #333;
+}
+.current p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.current ul li {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.background p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.background {
+    padding: 10px;
+    border-left: solid #333;
+}
+.interests {
+    padding: 10px;
+    border-left: solid #333;
+}
+.interests p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+.interests ul li{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.interests img {
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-top: -200px;
+    margin-right: 30px;
+}
+.future {
+    padding: 10px;
+    border-left: solid #333;
+}
+.future p {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+article{
+    padding-bottom: 300px;
+}

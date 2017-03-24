@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.head-img img{
+    position: relative;
+    max-width: 100%;
+    width: 1090px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
