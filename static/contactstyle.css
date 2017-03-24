@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.header {
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.header img {
+    position: relative;
+    width: 2000px;
+    height: 500px;
+    max-width: 100%;
+    
+}
+header {
+    position: relative;
+    margin-top: -350px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 150px;
+
+
+    
+
+}
+header h1{
+    margin-top: 50px;
+}
+
+.under {
+    font-size: 27px;
+    font-weight: bold;
+   
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+}
+
+
+.menu {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 2000px;
+    background-color: #333;
+
+}
+.menu ul {
+    
+    position: relative; 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.menu li {
+    
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    display: block;
+    margin: auto;
+
+}
+
+.middle {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+}
+
+.menu li a:active{
+    color: lightseagreen;
+}
+
+form {
+    position: realtive;
+    margin-left: 100px;
+    
+    width: 500px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+input{
+    padding: 12px 20px;
+
+}
+input[id=firstName]{
+    width: 30%;
+    height: 20px;
+    background-color: white;
+    color: black;
+    margin: 8px 10px;
+    
+}
+input[id="lastName"]{
+    width: 30%;
+    height: 20px;
+    background-color: white;
+    color: black;
+    margin: 8px 12px;
+}
+input[id="email"]{
+    width: 50%;
+    height: 20px;
+    background-color: white;
+    color: black;
+    margin: 8px 47px;
+}
+input[id="comment"]{
+    width: 80%;
+    height: 100px;
+    background-color: white;
+    color: black;
+    margin: 8px 93px;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+legend {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    border: none;
+}
+input[type=submit]{
+    background-color: lightseagreen;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 400px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-style: italic;
+}
+API Training Shop Blog About
